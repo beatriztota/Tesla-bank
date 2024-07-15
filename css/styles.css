@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #FFF;
+  }
+  
+  :root {
+    font-size: 62.5%;
+  }
+  
+  ul, li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  
+  img {
+    width: 100%;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3 {
+    transition: all 0.3s;
+    line-height: 150%;
+  }
+  
+  h1, h2, h3 {
+    line-height: 120%;
+  }
+  
+  h1::selection,
+  h2::selection,
+  h3::selection,
+  span::selection,
+  p::selection,
+  img::selection,
+  a::selection,
+  button::selection,
+  br::selection {
+    background-color: #EB3850;
+    color: #FFF;
+  }

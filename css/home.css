@@ -1,0 +1,104 @@
+.s-home {
+  padding: 0 7rem;
+  margin: 15rem auto 0;
+  max-width: 130rem;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.s-home .home-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-home .content-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 8.8rem;
+  font-weight: 600;
+  line-height: 8.68rem;
+}
+
+.s-home .content-title span {
+  color: #eb3850;
+}
+.s-home .content-description {
+  margin-top: 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 2.4rem;
+  color: #1a191e;
+  font-weight: 500;
+  line-height: 3.84rem;
+  width: 70rem;
+}
+
+.s-home .content-advantage {
+  margin: 3rem 0 4rem;
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  gap: 4rem;
+}
+
+.s-home .content-advantage .advantage-item {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.s-home .content-advantage .advantage-item img {
+  width: 2.6rem;
+}
+
+.s-home .home-group-cta {
+  display: flex;
+  gap: 5rem;
+}
+.s-home .home-group-cta img {
+  width: 3rem;
+}
+
+.s-home .cta-download-app {
+  display: flex;
+  gap: 4rem;
+  width: 9rem;
+}
+
+.s-home .cta-download-app img {
+  transition: all 0.3s;
+}
+.s-home .cta-download-app img:hover {
+  transform: scale(1.2);
+}
+
+.s-home .home-cards {
+  width: 37rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #eb3850;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 25rem;
+  height: 6rem;
+  gap: 1rem;
+  font-size: 1.9rem;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+
+
+.btn-cta-button:hover {
+  background-color: #c32f42; 
+}
+
+
