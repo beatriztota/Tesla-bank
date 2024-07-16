@@ -1,0 +1,28 @@
+.footer {
+    background-color: #EB3850;
+  }
+  
+  .container-footer {
+    margin: 7rem auto 0;
+    max-width: 130rem;
+    padding: 4rem 3rem;
+    text-align: center;
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+ 
+  .container-footer p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FFF;
+  }
+  .container-footer img {
+    width: 5rem;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(76%) saturate(2%) hue-rotate(62deg) brightness(116%) contrast(101%);
+    display: block;
+  }
+
+  
+  
