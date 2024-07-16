@@ -1,5 +1,6 @@
 # TeslaBank 🚀
 
+<img src="src/images/TeslaBank.PNG" alt="TeslaBank">
 
 ## Descrição 📄
 
