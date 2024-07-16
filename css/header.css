@@ -63,3 +63,25 @@
     cursor: pointer;
 } 
 
+.menu-list .item-link {
+  text-decoration: none; 
+  transition: color 0.1s ease; 
+}
+
+.menu-list .item-link:hover {
+  color: #eb3850;
+}
+
+.header-buttons .buttons-item-1,
+.header-buttons .buttons-item-2 {
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.header-buttons .buttons-item-1:hover {
+  color: #c32f42;
+}
+
+.header-buttons .buttons-item-2:hover {
+  background-color: #c32f42;
+}
