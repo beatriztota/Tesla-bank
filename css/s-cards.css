@@ -1,0 +1,107 @@
+.s-cards {
+  margin: 13rem auto 0;
+  max-width: 130rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+.s-cards .cards-hashtag {
+  font-size: 2rem;
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  color: #cb162e;
+  font-weight: 600;
+}
+.s-cards .cards-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 5rem;
+  width: 50rem;
+  margin: 1rem auto 0;
+  line-height: 5.5rem;
+}
+.s-cards .cards-title span {
+  color: #eb3850;
+}
+
+.s-cards .cards-descrption {
+  font-size: 2rem;
+  font-family: "inter", sans-serif;
+  max-width: 81.1rem;
+  font-weight: 500;
+  margin: 2.5rem auto;
+}
+
+.s-cards .cards-image {
+  margin-top: 5rem;
+  max-width: 50rem;
+}
+
+.s-cards .cards-group-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 50rem;
+  gap: 1.5rem;
+  margin: 5rem auto 0;
+}
+
+.download-button-1,
+.download-button-2 {
+  background-color: #353436;
+  padding: 0.8rem 3.2rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: max-content;
+}
+
+
+.download-button-1 img,
+.download-button-2 img {
+  width: 3.2rem;
+  transition: all 0.3s;
+}
+.download-button-1:hover,
+.download-button-2:hover {
+  background-color: #1A191E;
+}
+.download-button-1:hover img,
+.download-button-2:hover img {
+  transform: scale(1.2);
+}
+.download-button-1 div,
+.download-button-2 div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: justify;
+}
+.download-button-1 div span,
+.download-button-2 div span {
+  color: #FFF;
+}
+.download-button-1 div span:nth-child(1),
+.download-button-2 div span:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.download-button-1 div span:nth-child(2),
+.download-button-2 div span:nth-child(2) {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+
+  @keyframes imgPulsate {
+    0% {
+      width: 180px;
+    }
+    50% {
+      width: 200px;
+    }
+    100% {
+      width: 180px;
+    }
+  }

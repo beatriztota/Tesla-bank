@@ -1,0 +1,93 @@
+.s-benefits {
+  background-color: #fff2f4;
+  margin-top: 10rem;
+}
+
+.container-benefits {
+  padding: 5rem 3rem;
+  margin: 4rem auto 0;
+  max-width: 130rem;
+  background-color: #fff2f4;
+}
+
+.container-benefits .benefits-hashtag {
+  font-size: 2rem;
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  color: #cb162e;
+  font-weight: 600;
+}
+
+.container-benefits .benefits-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.container-benefits .benefits-title span {
+  color: #eb3850;
+}
+
+.container-benefits .benefits-title span {
+  color: #eb3850;
+}
+.container-benefits .benefits-container-cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.container-benefits .benefits-container-cards .group-card-one,
+.container-benefits .benefits-container-cards .group-card-two {
+  display: flex;
+  gap: 3rem;
+}
+.container-benefits .benefits-container-cards .group-card-two {
+  margin-top: 3rem;
+  justify-content: flex-end;
+}
+
+.container-benefits .benefits-container-cards .benefits-card {
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 290px;
+  margin-bottom: 0;
+  justify-content: flex-end;
+}
+
+.container-benefits .benefits-container-cards .benefits-card div {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.container-benefits .benefits-container-cards .benefits-card img {
+  width: 34px;
+}
+.container-benefits .benefits-container-cards .benefits-card h3 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.container-benefits .benefits-container-cards .benefits-card p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+}
+
+.container-benefits .benefits-container-cards .benefits-card a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #cb162e;
+  text-transform: uppercase;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.container-benefits .benefits-container-cards .benefits-card a:hover {
+  color: #eb3850;
+}

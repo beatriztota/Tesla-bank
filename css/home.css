@@ -64,6 +64,7 @@
   display: flex;
   gap: 4rem;
   width: 9rem;
+  cursor: pointer;
 }
 
 .s-home .cta-download-app img {
@@ -93,9 +94,8 @@
   gap: 1rem;
   font-size: 1.9rem;
   transition: background-color 0.3s, transform 0.3s; 
+  cursor: pointer;
 }
-
-
 
 .btn-cta-button:hover {
   background-color: #c32f42; 
